@@ -1,26 +1,31 @@
 #navbar{
+    position: fixed;
+    z-index: 1;
     width:100%;
-    height: 10%;
-    background-color:black;
+    height: 8%;
+    background-color: #27313a;
     margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
 }
 
 
 #mainbod{
+    overflow-x: hidden;
     margin: 0px;
-    background-color: white;
+    padding: 0px;
+    background-color: #b7b7c0;
     width: 100vw;
     height: 100vh;
-    
 }
 
 .barDiv{
     color: black;
     display: inline-block;
-    margin-left: 8.4%;
-    margin-right: 8.4%;
     width: 16%;
-    background-color: 0x111111;
+    background-color: #787567;
     height: 100%;
     border-radius: 1000px;
     border-width: 0px;
@@ -28,7 +33,7 @@
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 20px;
     font-size-adjust: .2;
-    cursor: auto;
+    cursor: pointer;
 }
 
 .navlink:link, .navlink:visited{
@@ -37,7 +42,7 @@
     }
 
 .navlink:hover, .navlink:active{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -45,3 +50,55 @@ button:focus{
     outline: none;
 }
 
+#paper{
+    background-color: #9e9579;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 0px;
+    position: relative;
+}
+
+#innerp{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+}
+
+.postDivider{
+    width: 100%;
+    background-color: #27313a;
+    margin-top:30px;
+    margin-bottom:30px;
+    height: 3px;
+}
+
+#footer{
+    margin: 0px;
+    position: fixed;
+    height: 8%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #27313a;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.licon{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.icon{
+    margin: 0px;
+    padding: 0px;
+    width: 52px;
+}

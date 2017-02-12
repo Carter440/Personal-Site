@@ -1,0 +1,26 @@
+3
+images/NASA.png
+NASA Jet Propulsion Laboratory Sudent Research Intern
+August 2016 – December 2016 Pasadena, CA
+Bio-Inspired technology division
+
+Automated Keypoint Extraction for Multi-Band IR video correlation in C++
+#
+images/HARVEYMUDD.png
+Research Assistant at Harvey Mudd College
+June 2015 – August 2015 Claremont, California
+Developed cophylogeny reconciliation software.
+
+Developed teaching tools for use in teaching computer algorithms. 
+
+Co-author of research paper on reconciliation browser tool.
+!
+https://dtl-rnb.herokuapp.com
+images/billy.png
+CPP Carpool Carpool with your fellow Broncos!
+September - December 2016 Cal-Poly Pomona
+Web Service for cal-poly students to find one other and coordinate carpools.
+
+Implemented using Flask, AngularJS, PostgreSQL, and Amazon Web Services
+!
+http://www.cppcarpool.com

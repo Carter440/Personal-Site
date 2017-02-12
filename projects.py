@@ -18,8 +18,8 @@ def makePosts(postfile):
 		link = ''
 		descl = f.readline().strip()
 		while descl not in ("#","!"):
-			desc+=descl = "\n"
-			descl = f.readline()
+			desc+=descl + "\n"
+			descl = f.readline().strip()
 		if descl == "!":
 			link = f.readline().strip()
 		posts.append(Post(img,postt,timer,desc,link))

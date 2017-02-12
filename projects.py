@@ -16,11 +16,11 @@ def makePosts(postfile):
 		timer = f.readline().strip()
 		desc = ""
 		link = ''
-		descl = f.readline()
-		while descl not in ("#\n","!\n"):
-			desc+=descl
+		descl = f.readline().strip()
+		while descl not in ("#","!"):
+			desc+=descl = "\n"
 			descl = f.readline()
-		if descl == "!\n":
+		if descl == "!":
 			link = f.readline().strip()
 		posts.append(Post(img,postt,timer,desc,link))
 	return posts

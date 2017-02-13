@@ -3,35 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CS Blog</title>
+    <title>{% block Title %}{% endblock %}</title>
+    {% block Links %}{% endblock %}
     <link rel="shortcut icon" href="">
     <link rel="stylesheet" href="{{ url_for('static', filename='styles/CarterSlocum.css') }}">
 </head>
 <body id="mainbod">
     <div id="navbar">
         <button id="Home" class="barDiv">
-            <a class="navlink" href="home">
+            <a class="navlink" href="../home">
                 Home
             </a>
         </button>
         <button id="Blog" class="barDiv">
-            <a class="navlink" href="blog">
+            <a class="navlink" href="../blog">
                 Blog
             </a>
         </button>
         <button id="Projects" class="barDiv">
-            <a class="navlink" href="projects">
+            <a class="navlink" href="../projects">
                 Projects
             </a>
         </button>
     </div>
 
-    <div id="paper"></div>
+    <div id="paper">
+        <div id ="innerp">
+        <hr class="postDivider" style="margin-top:0px; margin-bottom: 10%;">
+        {% block BlogPost %}{% endblock %}
+        <hr class="postDivider">
+        </div>
+    </div>
     
     <div id="footer">
         <a class="licon" href="https://www.facebook.com/carter.slocum"><img class="icon" src="{{ url_for('static', filename='images/FacebookIcon.png') }}" >
         <a class = "licon" href="https://www.linkedin.com/in/cpslocum"><img class="icon" src="{{ url_for('static', filename='images/LinkedInIcon.gif') }}">
-        <a class= "licon"href="https://github.com/Carter440"><img class="icon" src="{{ url_for('static', filename='images/GitHubIcon.png') }}">
+        <a class= "licon" href="https://github.com/Carter440"><img class="icon" src="{{ url_for('static', filename='images/GitHubIcon.png') }}">
     </div>
 </body>
 </html>

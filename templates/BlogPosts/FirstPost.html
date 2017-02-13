@@ -1,0 +1,12 @@
+{% extends "CarterBlog.html" %}
+{% block Links%} {% endblock %}
+{% block Title %} I Made a Website! {% endblock %}
+{% block BlogPost %} 
+	<h1> I Made a Website! </h1>
+	<p style="font-size: 20px"> Probably should have done this about a year ago....
+
+		The site is pretty basic at this point. Python and Flask on the backend allowing for dynamic html pages which should scale well as I add more blog posts over time. All the changes are being done on the back end instead of someething like passing the info to the client as json and having a framework like AngularJS parse and edit the document. But hey! Anything to avoid javascript! HackPoly, Cal-Poly's annual hackathon, provided the time I needed to sit down and hash this out. In the Future ill likely employ a database to store the blogposts. Its unnecissary at this time as this is the only blogpost on the site!
+
+		-Carter 2/12/2017
+	</p>
+{% endblock %}

@@ -17,7 +17,7 @@ Co-author of research paper on reconciliation browser tool.
 !
 https://dtl-rnb.herokuapp.com
 images/billy.png
-CPP Carpool Carpool with your fellow Broncos!
+CPP Carpool! Carpool with your fellow Broncos!
 September - December 2016 Cal-Poly Pomona
 Web Service for cal-poly students to find one other and coordinate carpools.
 

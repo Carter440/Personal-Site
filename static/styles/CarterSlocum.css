@@ -53,6 +53,7 @@ button:focus{
 #paper{
     background-color: #9e9579;
     height: auto;
+    min-height: 100%;
     margin-left: 10%;
     margin-right: 10%;
     padding: 0px;

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Resume</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/CarterSlocum.css') }}">
+</head>
+<body id="mainbod">
+    <div id="navbar">
+        <button id="Home" class="barDiv">
+            <a class="navlink" href="home">
+                Home
+            </a>
+        </button>
+        <button id="Blog" class="barDiv">
+            <a class="navlink" href="resume">
+                Resume
+            </a>
+        </button>
+        <button id="Projects" class="barDiv">
+            <a class="navlink" href="projects">
+                Projects
+            </a>
+        </button>
+    </div>
+
+    <div id="paper">
+        <div id ="innerp">
+        <hr class="postDivider" style="margin-top:0px; margin-bottom: 9vh;">
+        <h1>EDUCATION:</h1>
+        <h2>California Polytechnic State University of Pomona</h2>
+        <ul>
+            <li>Bachelor of Science Degree candidate, Computer Science.</li>
+            <li>Anticipated Graduation March 2018.</li>
+            <li>Current GPA: 3.4</li>
+        </ul>
+        <hr class="postDivider">
+        <h1>EMPLOYMENT HISTORY:</h1>
+        <h2><em>Student Research Intern,</em> NASA Jet Propulsion Laboratories, Pasadena, CA , 8/2016-1/20/2017</h2>
+        <ul>
+            <li>Work in Bio-Inspired Technologies division.</li>
+            <li>Write, Test , and maintain Multi-band, grey-scale, correlation and segmentation software.</li>
+            <li>Implement State of the art Computer Vision and Machine learning algorithms in MATLAB and C++.</li>
+        </ul>
+        <h2><em>Research Student,</em> Harvey Mudd College, Claremont, CA, 6/2015-8/2015</h2>
+        <ul>
+            <li>Co-Author of  research paper on reconciliation browser tool using Python + Flask.</li>
+            <li>Assist in developing cophylogeny reconciliation software.</li>
+            <li>Develop teaching tools for use in teaching computer algorithms using HTML/CSS + Javascript.</li>
+        </ul>
+        <h2><em>Rocket Research Lab Intern,</em> Edwards Air Force Base, Edwards AFB, CA, 6/2012-8/2012</h2>
+        <ul>
+            <li>Shadowed two engineers on daily lab experiments to improve rocket fuel efficiency.</li>
+            <li>Developed chemical safety records database to provide easy access to safety information.</li>
+            <li>Worked with information technology professionals in order to better improve company information systems.</li>
+        </ul>
+        <hr class="postDivider">
+        <h1>SKILLS:</h1>
+        <ul>
+            <li>Proficient in C/C++, Python, Java, MATLAB, and C# programming languages.</li>
+            <li>Experienced in front-end web-development with HTML5/CSS3 and Javascript with the Angularjs framework.</li>
+            <li>Practiced in back-end development with the Flask framework and Postgresql databases.</li>
+            <li>Familiar with basic Machine Learning and Artificial Intelligence algorithms.</li>
+            <li>Comfortable working in Windows, Mac and UNIX/LINUX operating systems.</li>
+        </ul>
+        <hr class="postDivider">
+        <h1>MEMBERSHIPS:</h1>
+        <ul>
+            <li>Vice President of the Cal Poly Pomona Computer Science Society.</li>
+            <li>Member of the Association for Computing Machinery.</li>
+            <li>Member of the Cal Poly Game Development Club.</li>
+            <li>Computer Science Mentor For Underclassmen.</li>
+        </ul>
+        <hr class="postDivider">
+        </div>
+    </div>
+    <div id="footer">
+        <a class="licon" href="https://www.facebook.com/carter.slocum"><img class="icon" src="{{ url_for('static', filename='images/FacebookIcon.png') }}" >
+        <a class = "licon" href="https://www.linkedin.com/in/cpslocum"><img class="icon" src="{{ url_for('static', filename='images/LinkedInIcon.gif') }}">
+        <a class= "licon" href="https://github.com/Carter440"><img class="icon" src="{{ url_for('static', filename='images/GitHubIcon.png') }}">
+    </div>
+</body>
+</html>

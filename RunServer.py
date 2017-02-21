@@ -11,17 +11,13 @@ def home_page():
 def about_page():
 	return redirect(url_for('home_page'))
 
-@app.route('/blog')
+@app.route('/resume')
 def blog_page():
-	return redirect(url_for('blog_post', post='FirstPost'))
-
-@app.route('/blog/<post>', methods=['GET'])
-def blog_post(post):
-    return render_template("BlogPosts/" + post + ".html")
+	return render_template('CarterResume.html')
 
 @app.route('/projects')
 def work_page():
 	return render_template('CarterProjects.html', posts = projects.makePosts("ProjectPosts.txt"))
 
 if __name__ == "__main__":
-	app.run(host='0.0.0.0',port=80)	
+	app.run(host='0.0.0.0', port=80)	

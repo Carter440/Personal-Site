@@ -50,6 +50,25 @@ button:focus{
     outline: none;
 }
 
+h1{
+	color: #27313a;
+	font-family: "Courier New", Courier, monospace;
+}
+
+h2{
+	font-family: "Courier New", Courier, monospace;
+}
+
+p{
+	font-size: 20px;
+	font-family: "Segoe UI",Arial,sans-serif;
+}
+
+li{
+	font-size: 20px;
+	font-family: "Segoe UI",Arial,sans-serif;
+}
+
 #paper{
     background-color: #9e9579;
     height: auto;

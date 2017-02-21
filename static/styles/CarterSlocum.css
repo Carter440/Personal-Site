@@ -89,12 +89,26 @@ li{
     width: 60px;
 }
 
+.postTop{
+	margin-top:0px; 
+	margin-bottom: 9vh;
+}
+
 .postDivider{
     width: 100%;
     background-color: #27313a;
     margin-top:30px;
     margin-bottom:30px;
     height: 3px;
+}
+
+.postBot{
+	margin-bottom:0px; 
+	margin-top: 9vh;
+	position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 #footer{

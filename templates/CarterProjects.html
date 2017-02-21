@@ -28,7 +28,7 @@
 
     <div id="paper">
         <div id ="innerp">
-        <hr class="postDivider" style="margin-top:0px; margin-bottom: 9vh;">
+        <hr class="postTop">
         {% for post in posts %}
         <img class="logo" src="{{ url_for('static', filename = post.icon) }}">
         <h1 class="ptitle">{{ post.title }}</h1>
@@ -36,7 +36,7 @@
         {%if post.url%}<a href="{{post.url}}">Link</a>{%endif%}
         <hr class="postDivider">
         {% endfor %}
-        <hr class="postDivider" style="margin-bottom:0px; margin-top: 9vh;">
+        <hr class="postBot">
         </div>
     </div>
     

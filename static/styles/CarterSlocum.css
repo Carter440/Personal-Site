@@ -105,6 +105,7 @@ li{
 .postBot{
 	margin-bottom:0px; 
 	margin-top: 9vh;
+	position: absolute;
     left: 0;
     right: 0;
     bottom: 0;

@@ -27,8 +27,8 @@
     </div>
 
     <div id="paper">
+    <hr class="postTop">
         <div id ="innerp">
-        <hr class="postTop">
         {% for post in posts %}
         <img class="logo" src="{{ url_for('static', filename = post.icon) }}">
         <h1 class="ptitle">{{ post.title }}</h1>
@@ -36,8 +36,8 @@
         {%if post.url%}<a href="{{post.url}}">Link</a>{%endif%}
         <hr class="postDivider">
         {% endfor %}
-        <hr class="postBot">
         </div>
+    <hr class="postBot">
     </div>
     
     <div id="footer">
